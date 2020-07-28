@@ -8,7 +8,7 @@ pip3 install pychromecast
 echo "[*] Done"
 
 echo "[+] Getting files"
-git clone
+git clone https://github.com/pascaaaal/notifier.git /tmp/notifier
 echo "[*] Done"
 
 echo "[+] Installing"

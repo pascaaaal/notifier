@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=centos
-ExecStart=/usr/bin/python3 /home/pi/scripting/notifier.py -c /home/pi/scripting/config.txt -d /home/pi/scripting/data.txt
+ExecStart=/usr/bin/python3 /opt/notifier/notifier.py -c /etc/notifier/config.txt -d /etc/notifier/data.txt
 
 [Install]
 WantedBy=multi-user.target
