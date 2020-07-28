@@ -1,0 +1,13 @@
+[Unit]
+Description=Notify Service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=centos
+ExecStart=/usr/bin/python3 /home/pi/scripting/notifier.py -c /home/pi/scripting/config.txt -d /home/pi/scripting/data.txt
+
+[Install]
+WantedBy=multi-user.target

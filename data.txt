@@ -1,0 +1,5 @@
+#This is a config file
+#Schema: ip file
+#Example: 192.168.2.100 https://www.youtube.com/audiolibrary_download?vid=7323894e580fde0c
+192.168.2.100 https://www.myinstants.com/media/sounds/mlg-airhorn.mp3
+192.168.2.105 https://www.myinstants.com/media/sounds/musique-dascenseur-mp3cut.mp3

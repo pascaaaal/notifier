@@ -1,0 +1,10 @@
+#This is a config file
+#The subnet mask for your network
+subnet_addr = 192.168.2.0/24
+
+#The IP of your chromecast device
+chromecast_addr = 192.168.2.123
+
+#The timout (How long does not came a answer from the client)
+#This is beacause the client does not answer everytime
+timeout = 8
