@@ -6,7 +6,7 @@ StartLimitIntervalSec=0
 Type=simple
 Restart=always
 RestartSec=1
-User=centos
+User=root
 ExecStart=/usr/bin/python3 /opt/notifier/notifier.py -c /etc/notifier/config.txt -d /etc/notifier/data.txt
 
 [Install]

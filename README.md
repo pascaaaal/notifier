@@ -1,7 +1,7 @@
 # notifier
 This is a small script to send a notification via your Google Home when a specific IP enters your Network.
 # Installation
-<code>sudo bash <(curl -s https://raw.githubusercontent.com/pascaaaal/notifier/master/install.sh)</code>
+<code>curl -s https://raw.githubusercontent.com/pascaaaal/notifier/master/install.sh | sudo bash</code>
 # Requirements
 <li>Python 3.7</li>
 <li>fping</li>
