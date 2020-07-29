@@ -17,7 +17,7 @@ def load_data(path):
     for line in lines:
         if line[0] is '#' or not line.strip():
             continue
-        result.append([line.split()[0], 0, line.split()[1], False])
+        result.append([line.split()[0], 0, line.split()[1], True])
     return result
 
 # Loads all config vars
